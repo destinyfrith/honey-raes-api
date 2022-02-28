@@ -71,6 +71,16 @@
             "id": 2,
             "name": "Rose Schmitt",
             "specialty": "Printers"
+        },
+        {
+            "id": 3,
+            "name": "April Flowers",
+            "specialty": "Smart Watch"
+        },
+        {
+            "id": 4,
+            "name": "Tan France",
+            "specialty": "Tablets"
         }
     ],
     "serviceTickets": [
