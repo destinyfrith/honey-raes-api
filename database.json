@@ -59,6 +59,12 @@
             "name": "Renaud Erbe",
             "address": "30 Westridge Pass",
             "email": "rerbe9@psu.edu"
+        },
+        {
+            "name": "Brandon Maple",
+            "address": "550 Wynn St",
+            "email": "bmoney@gmail.com",
+            "id": 11
         }
     ],
     "employees": [
@@ -81,6 +87,11 @@
             "id": 4,
             "name": "Tan France",
             "specialty": "Tablets"
+        },
+        {
+            "name": "Ashley",
+            "specialty": "tablets",
+            "id": 6
         }
     ],
     "serviceTickets": [
@@ -99,6 +110,46 @@
             "description": "Cannot connect to any wifi.",
             "emergency": true,
             "dateCompleted": ""
+        },
+        {
+            "description": "oh no, my computer died",
+            "emergency": true,
+            "customerId": 11,
+            "employeeId": 1,
+            "dateCompleted": "",
+            "id": 3
+        },
+        {
+            "description": "Cracked iphone screen",
+            "emergency": true,
+            "customerId": 11,
+            "employeeId": 1,
+            "dateCompleted": "",
+            "id": 4
+        },
+        {
+            "description": "macbook charger not working",
+            "emergency": false,
+            "customerId": 11,
+            "employeeId": 1,
+            "dateCompleted": "",
+            "id": 5
+        },
+        {
+            "description": "whatsup",
+            "emergency": false,
+            "customerId": 11,
+            "employeeId": 1,
+            "dateCompleted": "",
+            "id": 6
+        },
+        {
+            "description": "oh boi I dropped my phone",
+            "emergency": true,
+            "customerId": 11,
+            "employeeId": 1,
+            "dateCompleted": "",
+            "id": 7
         }
     ]
 }
