@@ -90,8 +90,8 @@
         },
         {
             "name": "Ashley",
-            "specialty": "tablets",
-            "id": 6
+            "specialty": "Tablets",
+            "id": 5
         }
     ],
     "serviceTickets": [
@@ -104,12 +104,12 @@
             "dateCompleted": "2021-05-26"
         },
         {
-            "id": 2,
             "customerId": 7,
-            "employeeId": 2,
+            "employeeId": 4,
             "description": "Cannot connect to any wifi.",
             "emergency": true,
-            "dateCompleted": ""
+            "dateCompleted": "",
+            "id": 2
         },
         {
             "description": "oh no, my computer died",
@@ -128,28 +128,20 @@
             "id": 4
         },
         {
-            "description": "macbook charger not working",
-            "emergency": false,
             "customerId": 11,
-            "employeeId": 1,
-            "dateCompleted": "",
-            "id": 5
-        },
-        {
-            "description": "whatsup",
-            "emergency": false,
-            "customerId": 11,
-            "employeeId": 1,
-            "dateCompleted": "",
-            "id": 6
-        },
-        {
+            "employeeId": 5,
             "description": "oh boi I dropped my phone",
             "emergency": true,
-            "customerId": 11,
-            "employeeId": 1,
             "dateCompleted": "",
             "id": 7
+        },
+        {
+            "customerId": 11,
+            "employeeId": 4,
+            "description": "I lost all my contacts, can I get them back?",
+            "emergency": false,
+            "dateCompleted": "",
+            "id": 8
         }
     ]
 }
